@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "vehiclesApigateway",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authapigatewayjssdk9bdb070f",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

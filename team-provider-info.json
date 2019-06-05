@@ -1,0 +1,19 @@
+{
+    "default": {
+        "awscloudformation": {
+            "AuthRoleName": "apigateway-js-sdk-default-20190605103635-authRole",
+            "UnauthRoleArn": "arn:aws:iam::742705829810:role/apigateway-js-sdk-default-20190605103635-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::742705829810:role/apigateway-js-sdk-default-20190605103635-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "apigateway-js-sdk-default-20190605103635-deployment",
+            "UnauthRoleName": "apigateway-js-sdk-default-20190605103635-unauthRole",
+            "StackName": "apigateway-js-sdk-default-20190605103635",
+            "StackId": "arn:aws:cloudformation:us-east-1:742705829810:stack/apigateway-js-sdk-default-20190605103635/b3e09980-87a7-11e9-b7f6-0e984b426fca"
+        },
+        "categories": {
+            "auth": {
+                "apigatewayjssdk9bdb070f": {}
+            }
+        }
+    }
+}

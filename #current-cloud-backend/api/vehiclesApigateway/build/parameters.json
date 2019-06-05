@@ -1,0 +1,12 @@
+{
+    "AppSyncApiName": "vehiclesApigateway",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authapigatewayjssdk9bdb070f",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "apigateway-js-sdk-default-20190605103635-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/adc5cb1e84e51adbbfcbdcbfea9526392ac1251c"
+}
